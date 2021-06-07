@@ -1,4 +1,4 @@
 # Youtube comment scrapper
-## Instalation:
-1. Install from requirments.txt `pip install -r requirments.txt`
+## Installation:
+1. Install from requirements.txt `pip install -r requirements.txt`
 2. Setup chrome web driver [Selenium](https://www.selenium.dev/documentation/en/webdriver/driver_requirements/)

@@ -1,0 +1,39 @@
+1. Jak zrobić, żeby filmik w ogóle nie startował po wejściu na strone video
+a) Wyciszanie dźwięku?
+
+___________________ ROZMAWIALISMY O TYM I NIE BIERZEMY TEGO POD UWAGE ___________________
+b) Nie wczytywanie tego? (może idzie ominąć jakoś wczytanie konkretnego elementu na stronie)
+_________________________________________________________________________________________
+2. Metoda, która czeka aż załadują się wszystkie komentarze na stronie (scroll)
+3. Metoda, która pobiera komentarze z strony (cały kontener)
+    a) Pętlą sprawdzanie czy wszystkie komentarze się wczytały (ilość komentarzy jest podana
+4. Zapisywanie komentarzy do:
+    b) plik .csv
+    c) Pandas tabelka? (mozna filtrowac chyba i wtedy sort z głowy)
+    d) Django backend + db
+5. Dodanie django
+Django -> Comment.objects.all() = SELECT * FROM COMMENT
+6. Pokazywanie ile jest komentarzy lajkow i disslajkow jak to sie ma do wyswietlen (% staty?)
+
+
+
+
+Generalna wizja:
+Jestem twórca video. Podrzucam link do scrappera, który dostarcza mi informacji o tym kto ma najwięcej lajków pod komentarzem, komu najwięcej osób odpowiedziało, kto ma najwięcej disslajków, mogę sortować pod dacie - zakres (opcjonalne)
+
+Sortuj po dacie:
+1 day ago
+2 day ago - 2 dni temu
+….
+7 day ago
+
+1 week
+…
+1 month ago
+...
+
+
+bonus:
+- wyszukiwarka do filmów.
+- bazka
+- front??
