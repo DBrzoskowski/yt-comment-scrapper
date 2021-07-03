@@ -14,7 +14,7 @@ MOVIE_PLAYER = '//*[@id="movie_player"]'
 
 
 op = webdriver.ChromeOptions()
-op.add_argument('headless')   # browser doesn't open
+op.add_argument('headless')   # disables the browser
 
 
 def get_data_from_json(json_file):
