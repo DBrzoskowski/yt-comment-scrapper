@@ -65,10 +65,8 @@ class CommentScrapper:
         # without likes or with likes
         if len(comment_data) == 6:
             result = comment_data[:-2]
-        elif len(comment_data) == 4 or len(comment_data) == 5:
+        if len(comment_data) == 4 or len(comment_data) == 5:
             result = comment_data[:-1]
-        else:
-            print(comment_data)
 
         if len(result) == 4:
             self.clean_data.append(result)
